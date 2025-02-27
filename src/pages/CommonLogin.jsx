@@ -10,7 +10,7 @@ const CommonLogin = () => {
 	return (
 		<div className={styles.login_container}>
 			<Button variant='primary' onClick={handleLoginSSO}>
-				Login Now
+				Login Nows
 			</Button>
 		</div>
 	);
