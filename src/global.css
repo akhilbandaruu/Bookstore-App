@@ -41,8 +41,37 @@ h1,
 h2 {
 	font-family: var(--font-secondary);
 	letter-spacing: -1px;
+	line-height: 1;
 }
 
 h1 {
 	font-size: 2.5rem;
+}
+
+.logo img {
+	width: 4rem;
+	height: 4rem;
+}
+
+.icons {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 100%;
+	background-color: var(--color-teriary-background);
+}
+
+.icons img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0.7rem;
+}
+
+.icons:hover {
+	background-color: var(--color-primary);
+}
+
+.icons img:hover {
+	filter: invert(1);
 }
